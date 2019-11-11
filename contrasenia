@@ -1,0 +1,33 @@
+/**
+ * Write a description of class Contrasenia here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+import java.util.Scanner;
+public class Contrasenia
+{
+   public static void main(String [] args){
+    Scanner c = new Scanner(System.in);
+    Scanner co= new Scanner(System.in);
+    String contr= "";
+    String cont= "";
+    System.out.println("Ingrese una contraseña: ");
+    contr=c.nextLine();
+    for(int i=0;i<3;i++){
+    System.out.println("Introduzca una contraseña: ");
+    cont=co.nextLine();
+      if (contr.equals(cont)){
+      System.out.println("Contraseña valida");
+      i=3;
+    }else{
+      System.out.println("contraseña invalida ");
+      
+    }if(i==2){
+    System.out.println("Ya valio vrg :O");
+    }
+       
+    
+      }
+    }
+  }
